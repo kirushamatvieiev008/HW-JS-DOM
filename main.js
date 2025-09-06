@@ -1,5 +1,7 @@
-// const btn1 = document.querySelector('.btnTask1');
-// const inp1 = document.querySelector('.inputTask1');
+const inp1 = document.querySelector('.inputTask1');
+const btn1 = document.querySelector('.btnTask1');
+
+btn1.textContent = inp1.textContent;
 
 // task2
 const natureFoto = document.querySelector('.natureFoto');
@@ -16,9 +18,10 @@ link3.src = 'https://www.facebook.com/?locale=uk_UA';
 // task4
 
 const list = document.querySelector('.list');
-const arrayLists = document.querySelectorAll('.list');
-console.log(arrayLists);
+// const arrayLists = document.querySelectorAll('.list');
+// console.log(arrayLists);
+// console.log(list.firstElementChild );
 
-list.firstChild.textContent = 'new content';
+list.firstElementChild.textContent = 'new content';
 
-console.log(list.firstChild);
+console.log(list.firstElementChild);
